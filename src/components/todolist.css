@@ -1,0 +1,99 @@
+body 
+{
+    background-color: rgb(32, 34, 34);
+    color: aliceblue;
+    
+}
+.to-do-list 
+{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+input 
+{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+input[type="text"]
+{
+    width:200px;
+    height:30px;
+    font-size: medium;
+}
+input[type="checkbox"]
+{
+    
+    width: 20px;
+    height: 20px;
+    accent-color: rgb(52, 158, 30);
+      
+    
+}
+
+
+button 
+{
+    margin:10px;
+    padding:10px;
+    border-radius: 20px;
+    font-family: cursive;
+    height: 50px;
+    width:200px;
+    font-size: medium;
+    
+}
+.delete
+{
+    background-color: rgb(218, 79, 79);
+    border-color: brown;
+}
+.up 
+{
+    background-color: rgb(182, 212, 71);
+    border-color: rgb(95, 116, 23);
+}
+.add 
+{
+    background-color: rgb(105, 163, 4);
+    border-color: rgb(52, 78, 7); ;
+}
+.delete:hover
+{
+    background-color: rgb(172, 21, 21);
+    color:white;
+}
+.up:hover
+{
+    background-color: rgb(140, 163, 9);
+    color:white;
+}
+.add:hover
+{
+    background-color: rgb(45, 70, 3);
+    color:white;
+}
+.down
+{
+    background-color: rgb(230, 100, 230);
+    border-color: rgb(128, 10, 128);
+}
+.down:hover
+{
+    background-color: rgb(83, 10, 83);
+    color:white;
+}
+.ord 
+{
+    list-style:none;
+}
+.report 
+{
+    font-family:cursive ;
+    font-weight: 400;
+    font-style:inherit;
+   
+}
+
